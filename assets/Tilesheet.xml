@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:75f415c3c6797f9bbbb58a7da8e250ee$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="Tilesheet.png" width="1024" height="1920">
+    <sprite n="background/Background" x="0" y="600" w="800" h="480"/>
+    <sprite n="background/BackgroundFront" x="0" y="120" w="800" h="480"/>
+    <sprite n="fortifications/Palisade" x="0" y="1560" w="504" h="360"/>
+    <sprite n="fortifications/Wall" x="0" y="1080" w="768" h="480"/>
+    <sprite n="monsters/Goblin" x="800" y="120" w="48" h="480"/>
+    <sprite n="spells/meteors/Explosion" x="0" y="0" w="960" h="120"/>
+    <sprite n="spells/meteors/MeteorStraight" x="848" y="120" w="36" h="88"/>
+    <sprite n="spells/meteors/Reticle" x="504" y="1560" w="480" h="48"/>
+    <sprite n="spells/meteors/SmokeTrail" x="960" y="0" w="64" h="320"/>
+    <sprite n="spells/wallOfFire/Flame" x="768" y="1080" w="256" h="96"/>
+</TextureAtlas>

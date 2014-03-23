@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<!-- NMML reference: https://gist.github.com/1763850 -->
+	
+	<!-- metadata, make sure 'package' is at least 3 segments (ie. com.mycompany.myproject) -->
+	<meta title="Wrath of Magic" package="com.sphaeraobscura.wrathofmagic" version="1.0.0" company="Dmitriy Barabanaschikov" />
+	
+	<!-- output -->
+	<app main="Main" file="WrathofMagic" path="bin" />
+	
+	<window background="#000000" fps="30" />
+	<window width="1600" height="960" unless="mobile" />
+	<window orientation="landscape" vsync="false" antialiasing="0"/>
+	
+	<!-- classpath, haxe libs -->
+	<source path="src" />
+	<haxelib name="nme" />
+	<haxelib name="actuate" />
+	<haxelib name="polygonal-ds" />
+	
+	<!-- assets -->
+	<icon path="assets/nme.svg" />
+	<assets path="assets"/>
+	
+	<!-- optimize output -->
+	<haxeflag name="--dead-code-elimination" if="haxe2" />
+	
+</project>
